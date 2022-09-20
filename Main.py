@@ -8,7 +8,7 @@ def display_hash(hashtable) -> None:
 		print()
 		
 
-def Hashing(keyvalue) -> int;
+def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
 
 def insert(Hashtable, keyvalue, value) -> None:
